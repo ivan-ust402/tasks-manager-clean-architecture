@@ -1,0 +1,18 @@
+# Сущности
+
+## Аналогия: 
+Сущности - это граждане страны
+```
+src/core/domain/entities/
+├── User.entity.ts        # Пользователь системы
+├── Product.entity.ts     # Товар в магазине
+├── Order.entity.ts       # Заказ
+└── Payment.entity.ts     # Платеж
+```
+#### Что внутри:
+
+Бизнес-правила (например: user.isAdult())
+Валидация (user.validateEmail())
+Методы поведения (order.calculateTotal())
+
+**Важно!:** Только логика, без зависимостей от внешнего мира
