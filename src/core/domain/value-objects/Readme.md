@@ -1,5 +1,5 @@
 # Объекты-значения - "Документы/Сертификаты"
-
+Value Object - объект-значение (неизменяемый)
 ```
 src/core/domain/value-objects/
 ├── Email.vo.ts          # Email с валидацией
